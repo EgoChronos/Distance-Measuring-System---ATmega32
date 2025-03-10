@@ -10,6 +10,6 @@ o	Utilized: GPIO, ICU, Ultrasonic Sensor, and LCD.
 
 o Microcontroller: ATmega32.
 
-You can read the full requirments in the attached file.
+You can read the full requirements in the attached file.
 
 Thank you.
