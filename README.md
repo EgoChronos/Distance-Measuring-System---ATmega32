@@ -1,15 +1,34 @@
-# Distance-Measuring-System---ATmega32
+# Distance Measuring System – ATmega32 📏
+👋 Hello, everyone!
 
-Hallo, all.
+This repository contains a mini project created as part of my Embedded Software Basics Diploma at EDGES for Training.
 
-This is a mini project of my Embedded software basic diploma at "EDGES for training"
+📝 Project Summary
+This project is a simple distance measuring system that uses an ultrasonic sensor to calculate the distance between the sensor and an object. The measured value is then displayed on an LCD screen in real-time.
 
-A summery of the project: it is a Software that read the distance using an Ultrasonic Sensor, and shows it on LCD.
+🎯 The objective was to apply embedded system principles to develop a functional and responsive measurement tool.
 
-o	Utilized: GPIO, ICU, Ultrasonic Sensor, and LCD.
+🧰 Technologies & Components Used
+Component/Feature	Description
+🧠 MCU	ATmega32 Microcontroller
+📡 Sensor	Ultrasonic Sensor (HC-SR04 or equivalent)
+📺 Display	LCD Display (for real-time distance output)
+⚙️ Peripherals Used	GPIO, ICU (Input Capture Unit), LCD Interface
 
-o Microcontroller: ATmega32.
+⚙️ How It Works
+📡 The ultrasonic sensor sends a sound pulse and waits for the echo.
 
-You can read the full requirements in the attached file.
+⏱️ The ICU measures the time it takes for the echo to return.
 
-Thank you.
+📐 The distance is calculated using the speed of sound formula.
+
+📺 The result is displayed on the LCD screen in centimeters.
+
+🧪 This real-time feedback system is ideal for basic range detection and proximity-based applications.
+
+📄 Project Documentation
+📎 You can find the full requirements and technical details in the attached documentation file.
+
+✅ Project Status
+🎉 Completed
+All core functionalities have been implemented, tested, and verified on hardware.
